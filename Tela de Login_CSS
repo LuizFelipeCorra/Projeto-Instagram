@@ -1,0 +1,71 @@
+body{
+   background-image: linear-gradient(45deg,hsl(180, 100%, 50%),green,
+    #ffff00);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div h1{ 
+
+    background-image: linear-gradient(to right, black,rgba(0, 255, 255, 0.685), green, rgb(64, 172, 64));
+    font-size: 60px;
+    padding: 10px 70px 10px 10px;
+    width:100%;
+    border-radius: 10px 10px -4px;
+    
+
+}
+
+
+div{
+
+    background-color: rgba(0, 0, 0, 10);
+    color: white;
+    text-align: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    padding: 80px;
+    border-radius: 35px;
+    
+}
+
+input{
+
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 15px;
+    
+    
+
+}
+
+button{
+    background-color: rgb(252, 255, 255);
+    padding: 10px;
+    width: 100%;
+    font-size: 25px;
+    border-radius: 15px;
+    
+}
+
+button:hover{
+    background-color: rgb(122, 211, 211);
+    cursor: pointer;
+}
+
+
+
+.aqui {
+    color: red;
+}
+
+
+
+p{
+    font-size: 21px;
+}
